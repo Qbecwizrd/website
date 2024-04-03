@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Gabarito:wght@500&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Gabarito:wght@500&family=Source+Code+Pro&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@1,300&family=Gabarito:wght@500&family=Source+Code+Pro&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@1,300&family=Gabarito:wght@500&family=Oswald:wght@300&family=Source+Code+Pro&family=Young+Serif&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+#particles-js {
+  width: 100%;
+  height: 100vw;
+  background-color: rgb(5, 5, 5);
+}
+.newpage {
+  display: flex;
+}
+@keyframes slideinLeft {
+  from {
+    transform: translateX(-60px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.main {
+  background-color: #f3f3f3;
+  width: 90vw;
+}
+.simg {
+  height: 86px;
+  padding-left: 18px;
+}
+.simg:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.otherinfo {
+  display: flex;
+}
+.dot {
+  height: 20px;
+  padding-top: 35px;
+  padding-left: 6px;
+}
+.sidebar {
+  background-color: rgb(3, 3, 3);
+  width: 240px;
+  height: 100vw;
+  font-family: "Exo 2", sans-serif;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 30px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: white;
+}
+#mypic {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.container {
+  display: flex;
+}
+.infocontainer {
+  /* background-color: rgb(82, 20, 73);*/
+  height: 78vh;
+  width: 70vw;
+  margin: 147px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  animation: slideinLeft 1s ease-in;
+}
+.hello {
+  font-size: 50px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+}
+.about {
+  font-size: 40px;
+}
+.moreAbout {
+  font-size: 24px;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Gabarito", cursive;
+  font-family: "Source Code Pro", monospace;
+  margin-top: 10px;
+}
+.buttons {
+  margin-top: 30px;
+  transition: transform 0.3s;
+}
+.buttons button {
+  padding: 12px;
+  border-radius: 56px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: black;
+  background-color: white;
+  transform: translateY(-10px);
+}
+.devpic img {
+  height: 400px;
+  width: 370px;
+}
+.contactform {
+  padding-top: 140px;
+  font-family: "Exo 2", sans-serif;
+  padding-left: 40px;
+}
+.contactform h1 {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contactform form div input {
+  width: 10vw;
+  border-radius: 10px;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 10px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#form-check {
+  padding-top: 20px;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+#isclient {
+  width: 13px;
+}
+#btn-sm {
+  height: 67px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 30px;
+}
+.blogitem {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+/* Add styles to position the blog content on top of the video */
+.video-background {
+  position: relative;
+}
+
+.blogcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Background color for the overlay */
+  color: #fff; /* Text color for the overlay */
+  padding: 20px;
+  overflow: auto; /* Enable scrolling if content overflows */
+}
+
+.blog-text {
+  /* Add styles for your blog content as needed */
+  text-align: center;
+}
+
+#blogpara {
+  font-size: bold;
+  padding-left: 10px;
+  width: 730px;
+  text-align: center;
+  font-style: italic;
+  padding-left: 260px;
+  font-size: 28px;
+  padding-top: 40px;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Gabarito", cursive;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Young Serif", serif;
+  color: rgb(231, 224, 224);
+}
+/* In your style.css file or within a <style> tag in your HTML */
+
+.intro h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Dela Gothic One", cursive;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Gabarito", cursive;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Young Serif", serif;
+  font-size: 50px;
+}
+#introinfo {
+  padding-top: 40px;
+  text-align: center;
+  padding-top: 40px;
+  text-align: center;
+  padding-left: 244px;
+  font-size: 26px;
+  width: 700px;
+  color: rgb(19, 15, 15);
+  font-family: "Dela Gothic One", cursive;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Gabarito", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  font-family: "Young Serif", serif;
+}
+@media.sidebar {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+/* *************************************************************** */
+/* button popup implementation */
+.interest .buttons {
+  margin-top: 1px;
+  margin-left: 20px;
+  width: 300px;
+  height: 100px;
+  font-size: 200px;
+  border-radius: 2000px;
+}
+.bookimg {
+  display: flexbox;
+}
+#one {
+  padding-top: 10pc;
+  height: 25pc;
+  border-radius: 25%;
+  width: 20pc;
+  opacity: 0;
+}
+#two {
+  padding-top: 10pc;
+  height: 25pc;
+  border-radius: 25%;
+  opacity: 0;
+}
+#bookbtn {
+  padding-top: 3pc;
+}
