@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MY Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -19,31 +20,113 @@
           </ul>
         </nav>
       </div>
-      <div id="particles-js"></div>
-    </div>
-    <div class="project">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="pic2.jpg" class="d-block w-100" alt="...">
+      <div id="particles-js">
+        <div id="wrapper">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 9"></button>
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <a href="https://github.com/Qbecwizrd/REGRESSION-IMPLEMENT">
+              <img src="house.png" class="d-block w-100" alt="...">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HOUSE DATA PREDICTION USING MACHINE LEARNING</h5>
+                <p>Incorporated RandomForestRegressor,DecisionTreeRegressor and RandomForestRegressor in conjunction with
+                  matplotlib, sklearn, and a StandardScaler pipeline for housing
+                  data analysis showcasing versatility in machine learning techniques with a RMSE value of 3.07</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <a href="https://github.com/Qbecwizrd/CROP-RECOMMENDATION-SYSTEM">
+              <img src="crop.png" class="d-block w-100" alt="...">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CROP RECOMMENDATION SYSTEM</h5>
+                <p>Utilized Seaborn, Matplotlib for visualization, and classifiers
+                  (DecisionTreeClassifier, RandomForestClassifier, AdaBoost) in crop classification. Improved precision
+                 and recall metrics for accurate categorization and produced an accuracy of 99% for RandomForestClassifier.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://github.com/Qbecwizrd/AI-PROJECTS/tree/main/JARVISAI">
+              <img src="jarvis.png" class="d-block w-100" alt="...">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>AI VOICE ASSISTANT</h5>
+                <p>The Voice-Controlled Assistant project, inspired by the fictional character Jarvis from the Iron Man series, is a Python-based application that interacts with users through voice commands. Leveraging libraries such as speech_recognition, win32com, and webbrowser, this assistant can perform a variety of tasks including opening websites, playing music, checking the time, and launching applications like Spotify. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://qbecwizrd.github.io/DICE-GAME/">
+              <img src="dice.png" class="d-block w-100" alt="...">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>PIG GAME</h5>
+                <p>A game that lets 2 players play and have a fun duel of who can reach the highest maximin score possible to win the game </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://qbecwizrd.github.io/GUESS-MY-NUMBER/">
+                <img src="guess_game.png" class="d-block w-100" alt="...">
+              </a>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>GUESS THE NUMBER</h5>
+                <p>Build a Guess the Number game using JavaScript! Users guess a number between 1 and 100; provide feedback on whether it's too high or low. Track attempts & display the total once they guess correctly. Implement a high score feature. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://qbecwizrd.github.io/GUESS-MY-NUMBER/">
+                <img src="movie.png" class="d-block w-100" alt="...">
+              </a>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>MOVIE RECOMMENDATION SYSTEM</h5>
+                <p>Employed Matplotlib and Seaborn for visualizations, NLTK for
+                  stemming, and TF-IDF Vectorizer for feature extraction in a
+                  movie genre classification project. Achieved accurate
+                  predictions, demonstrating text processing and ML skills. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://qbecwizrd.github.io/GUESS-MY-NUMBER/">
+                <img src="credit.png" class="d-block w-100" alt="...">
+              </a>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CREDIT CARD FRAUD DETECTION</h5>
+                <p>Built fraud detection with Matplotlib, Seaborn,
+                  StandardScaler, and DecisionTreeClassifier for accurate credit
+                  card fraud classification </p>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div>
       </div>
     </div>
+    <div class="project">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
   </body>
