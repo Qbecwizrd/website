@@ -267,3 +267,39 @@
 #bookbtn {
   padding-top: 3pc;
 }
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* Ensure the carousel is behind the particles */
+}
+#carouselExampleDark {
+  padding-top: 100px;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the carousel horizontally */
+  border-radius: 70px;
+  overflow: hidden;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: white !important; /* Set arrow color to white */
+  opacity: 0.6 !important; /* Ensure arrows are fully visible */
+}
+
+
+.carousel-item img {
+  max-width: 100%; /* Make sure images fit within the carousel container */
+  height: auto; /* Maintain aspect ratio of images */
+}
+.awards{
+  height: 400px;
+  background-color: rgb(131, 226, 30);
+}
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  padding: 10px; /* Optional: Add padding for better readability */
+} 
+
+
